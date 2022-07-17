@@ -170,14 +170,15 @@ body {
     flex-direction: column;
     justify-content: center;
     margin-top: 60px;
+    margin-bottom: 30px;
   }
 
   .greeting h1 {
-    font-size: 3em;
+    font-size: 2.2em;
   }
 
   .greeting p {
-    font-size: 1.3em;
+    font-size: 1.2em;
   }
 
   .btn {
@@ -185,7 +186,7 @@ body {
   }
 
   .portfolio {
-    margin-top: 90px;
+    margin-top: 80px;
   }
 
   .portfolio h2 {
@@ -194,26 +195,28 @@ body {
   }
   
   .portfolio p {
-    font-size: 1.3em;
+    font-size: 1.2em;
   }
   
   .portfolio-item {
     display: flex;
     flex-direction: column;
-    margin-top: 80px;
+    margin-top: 30px;
   }
 
   .portfolio-call {
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin: 20px ;
   }
 
   #contact h2 {
     font-size: 2em;
     margin-bottom: 20px;
-    background-color: aqua;
+  }
+
+  #contact img {
+    width: 5%;
   }
 
   #contact a {
