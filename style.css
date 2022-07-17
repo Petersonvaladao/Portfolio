@@ -19,7 +19,7 @@ body {
   display: flex;
   flex-direction: row;
   justify-content: flex-end;
-  margin-top: 30px;
+  margin-top: 40px;
 }
 
 .nav a {
@@ -46,14 +46,13 @@ body {
 }
 
 .greeting h1 {
-  font-size: 6em;
-  line-height: 0.8em;
+  font-size: 4em;
   font-weight: 700;
   margin-bottom: 20px;
 }
 
 .greeting p {
-  font-size: 2em;
+  font-size: 1.5em;
   line-height: 1.2em;
   margin-top: 20px;
 }
@@ -78,7 +77,6 @@ body {
 }
 
 .logos img {
-  width: 40px;
   margin: 0 20px;
   transition: all ease 0.2s;
 }
@@ -88,46 +86,53 @@ body {
 }
 
 .portfolio {
-  margin-top: 120px;
+  margin-top: 80px;
 }
 
 .portfolio h2 {
-  font-size: 4em;
-  margin-bottom: 40px;
+  font-size: 3em;
+  margin-bottom: 20px;
 }
 
 .portfolio p {
-  font-size: 2em;
+  font-size: 1.5em;
   line-height: 1.2em;
-  margin-top: 20px;
-  margin-right: 10px;
+
 }
 
 .portfolio-item {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
-  margin-top: 90px;
+  margin-top: 40px;
 }
 
 .portfolio-item img {
-  width: 85%;
+  width: 60%;
 }
 
 #contact {
   display: flex;
   flex-direction: column;
-  margin-top: 90px;
+  margin-top: 80px;
+}
+
+#contact p {
+  font-size: 1.5em;
 }
 
 #contact h2 {
-  font-size: 4em;
-  margin: 40px 0;
+  font-size: 2em;
+  margin: 40px 0 20px 0;
+}
+
+#contact img {
+  width: 3%;
 }
 
 #contact a {
-  font-size: 1.5em;
-  margin: 10px 0;
+  font-size: 1.2em;
+  margin: 5px 0;
 }
 
 #contact a:hover {
@@ -141,7 +146,6 @@ body {
 }
 
 .contact-option img {
-  width: 40px;
   margin-right: 10px;
 }
 
@@ -149,8 +153,8 @@ body {
   text-align: center;
   color: #FBFBFD;
   background-color: #252525;
-  margin-top: 60px;
-  padding: 30px ;
+  margin-top: 20px;
+  padding: 40px ;
 }
 
 
@@ -196,7 +200,7 @@ body {
   .portfolio-item {
     display: flex;
     flex-direction: column;
-    margin-top: 90px;
+    margin-top: 80px;
   }
 
   .portfolio-call {
@@ -209,6 +213,7 @@ body {
   #contact h2 {
     font-size: 2em;
     margin-bottom: 20px;
+    background-color: aqua;
   }
 
   #contact a {
