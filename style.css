@@ -206,6 +206,10 @@ body {
     align-items: center;
   }
 
+  .contact-option {
+    margin-bottom: 8px;
+  }
+
   #contact h2 {
     font-size: 2em;
     margin-bottom: 20px;
